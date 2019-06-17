@@ -11,7 +11,7 @@ Geant4 example code for tutorials
 ## License
 BSD 2-Clause License
 
-Copyright (c) 2017, Koichi Murakami
+Copyright (c) 2019, Koichi Murakami
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
