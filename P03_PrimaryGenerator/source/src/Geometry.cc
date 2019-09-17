@@ -14,7 +14,6 @@
 #include "G4NistManager.hh"
 #include "G4VisAttributes.hh"
 #include "G4SystemOfUnits.hh"
-#include "G4GlobalMagFieldMessenger.hh"
 
 //------------------------------------------------------------------------------
   Geometry::Geometry() {}
@@ -114,10 +113,6 @@
    G4int copyNum_LogV_PixEnvG = 1000;                // Set ID number of LogV_PixEnvG
    new G4PVPlacement( trans3D_LogV_PixEnvG, "PhysVol_PixEnvG", logVol_PixEnvG, physVol_World,
                       false, copyNum_LogV_PixEnvG );
-
-// Add uniform magnetic field to the world
-   auto magFieldVector = G4ThreeVector( 0.0, 1.0*tesla, 0.0 );
-   new G4GlobalMagFieldMessenger( magFieldVector );
 
 // Return the physical world
    return physVol_World;
