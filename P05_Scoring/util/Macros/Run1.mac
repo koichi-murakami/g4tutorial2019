@@ -1,0 +1,13 @@
+# Run1.mac Test the bare scoring outputs
+/control/execute GlobalSetup.mac
+/tracking/verbose 1
+
+/gun/particle mu+
+/gun/energy 500 MeV
+
+/process/inactivate muIoni
+/process/inactivate msc
+
+/run/beamOn 1
+
+

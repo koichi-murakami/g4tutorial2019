@@ -1,0 +1,15 @@
+# histograms fine binning
+
+# Activate H1 ID=0 sum_eDep
+/analysis/h1/set 0 100 99. 100. MeV
+/analysis/h1/set 1 100 19. 21. mm
+/analysis/h1/set 2 100 0. 100. MeV
+/analysis/h1/set 3 100 0. 100. mm
+
+# define newFileName
+/analysis/setFileName BGOProton100MeV
+/tracking/verbose 0
+/run/beamOn 2000
+
+# for ROOT
+#root 'PlotPhantom.CC("BGOProton100MeV")'

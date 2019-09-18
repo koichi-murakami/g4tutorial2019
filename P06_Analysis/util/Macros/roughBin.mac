@@ -1,0 +1,13 @@
+# histogram gross binning 
+
+# Activate H1 ID=0 sum_eDep
+/analysis/h1/set 0 100 0. 100. MeV
+/analysis/h1/set 1 100 0. 100. mm
+/analysis/h1/set 2 100 0. 100. MeV
+/analysis/h1/set 3 100 0. 100. mm
+
+/tracking/verbose 0
+/run/beamOn 1000
+
+# default fileName = "BGO" 
+#root 'PlotPhantom.CC("BGO")'

@@ -1,0 +1,7 @@
+# muon incident
+
+/gun/particle mu-
+/gun/energy 100 MeV
+/gun/position 0. 0. -15. cm
+/gun/direction 0. 0. 1.
+

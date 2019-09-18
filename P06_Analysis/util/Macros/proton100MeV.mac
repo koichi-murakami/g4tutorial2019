@@ -1,0 +1,8 @@
+# setup for stopping proton in BGO; Bragg peak
+
+/gun/particle proton
+/gun/energy 100 MeV
+/gun/position 0. 0. -15. cm
+/gun/direction 0. 0. 1.
+
+

@@ -1,0 +1,10 @@
+# Run2.mac Test the bare scoring outputs and Qt picking
+/control/execute GlobalSetup.mac
+/tracking/verbose 1
+
+/gun/particle proton
+/gun/energy 100 MeV
+
+/run/beamOn
+
+
